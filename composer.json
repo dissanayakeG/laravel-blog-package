@@ -1,0 +1,42 @@
+{
+  "name": "dissanayakeg/pack",
+  "description": "A demo package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dissa",
+      "email": "mdissanayake994@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DissanayajeG\\pack\\": "src",
+      "DissanayajeG\\pack\\Database\\Factories\\": "database/factories",
+      "DissanayajeG\\pack\\Database\\Migrations\\": "database/migrations"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DissanayakeG\\pack\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DissanayajeG\\pack\\BlogPackageServiceProvider"
+      ],
+      "aliases": {
+        "Calculator": "DissanayajeG\\pack\\Facades\\Calculator"
+      }
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-f": "vendor/bin/phpunit --filter"
+  }
+}
