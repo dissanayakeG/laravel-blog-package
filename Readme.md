@@ -27,5 +27,5 @@ add
 
 run
 ```
-composer require dissanayakeg/pack
+composer require dissanayakeg/laravel-blog-package
 ```
