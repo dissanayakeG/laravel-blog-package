@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'dissanayakeg/pack',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'dissanayakeg/laravel-blog-package',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'cc2b7b7793ef5efdc50039fb4df8025fdfcf5c30',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,10 +40,10 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'dissanayakeg/pack' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'dissanayakeg/laravel-blog-package' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'cc2b7b7793ef5efdc50039fb4df8025fdfcf5c30',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
